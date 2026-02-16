@@ -1,5 +1,9 @@
 # zserv
 
+[![Crates.io](https://img.shields.io/crates/v/zserv)](https://crates.io/crates/zserv)
+[![npm](https://img.shields.io/npm/v/zserv)](https://www.npmjs.com/package/zserv)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 **A simple, lightweight, and modern HTTP file server written in Rust.**
 
 `zserv` is designed to be a fast and easy way to serve static files from any directory. It's perfect for development, testing, or sharing files on a local network.
@@ -13,33 +17,67 @@
 -   🔇 **Quiet Mode**: Suppress logs with a simple flag.
 -   📦 **Cross-Platform**: Binaries available for Linux, macOS, and Windows.
 
-## Installation
-
-### From Source
-
-Ensure you have Rust installed.
+## Quick Start
 
 ```bash
-git clone https://github.com/rinx-dev/zserve.git
-cd zserve
-cargo install --path .
+# Using npx (no installation required)
+npx zserv
+
+# Using bunx (no installation required)
+bunx zserv
+
+# Using cargo
+cargo install zserv
+zserv
+```
+
+## Installation
+
+### NPM / Bun (Recommended)
+
+The easiest way to run `zserv` without installing anything permanently:
+
+```bash
+# Using npx (Node.js)
+npx zserv
+
+# Using bunx (Bun)
+bunx zserv
+```
+
+Or install globally:
+
+```bash
+# NPM
+npm install -g zserv
+
+# Bun
+bun install -g zserv
+```
+
+### With Cargo
+
+```bash
+cargo install zserv
 ```
 
 ### From Binary
 
 Download the latest pre-built binary for your operating system from the [Releases](https://github.com/rinx-dev/zserve/releases) page.
 
-### With Cargo (Coming Soon)
+### For Developers
 
-Once published to crates.io:
+If you want to contribute or run from source without installing:
 
 ```bash
-cargo install zserv
+git clone https://github.com/rinx-dev/zserve.git
+cd zserve
+cargo run
 ```
 
 ## Usage
 
-Run `zserv` in the directory you want to serve, or specify a path.
+Run `zserv` in the directory you want to serve, or specify a path:
 
 ```bash
 # Serve current directory on port 8080
