@@ -11,17 +11,26 @@ const tar = require('tar');        // For Unix tar.gz
 const pkg = require('../package.json');
 const VERSION = pkg.version;
 const REPO = 'rinx-dev/zserve'; // Must match GitHub repo
-const BIN_NAME = process.platform === 'win32' ? 'zserv.exe' : 'zserv';
 
 // Determine platform and arch
 const platform = process.platform;
 const arch = process.arch;
 
+// Determine binary name based on platform and arch
+let BIN_NAME;
+if (platform === 'win32') {
+  BIN_NAME = 'zserv-windows-amd64.exe';
+} else if (platform === 'darwin') {
+  BIN_NAME = arch === 'arm64' ? 'zserv-macos-arm64' : 'zserv-macos-amd64';
+} else {
+  BIN_NAME = 'zserv-linux-amd64';
+}
+
 let assetName = '';
 
 if (platform === 'win32') {
   if (arch === 'x64') {
-    assetName = 'zserv-windows-amd64.zip';
+    assetName = 'zserv-windows-amd64.exe.zip';
   } else {
     console.error(`Unsupported architecture: ${arch} on Windows`);
     process.exit(1);
