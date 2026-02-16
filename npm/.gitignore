@@ -1,0 +1,5 @@
+node_modules
+bin/zserv
+bin/zserv.exe
+*.zip
+*.tar.gz

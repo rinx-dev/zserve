@@ -1,0 +1,41 @@
+{
+  "name": "zserv",
+  "version": "0.1.0",
+  "description": "A simple, lightweight, and modern HTTP file server.",
+  "bin": {
+    "zserv": "bin/zserv.js"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinx-dev/zserve.git"
+  },
+  "keywords": [
+    "http-server",
+    "static",
+    "serve",
+    "rust",
+    "cli"
+  ],
+  "author": "Rindog <hello@rinx.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rinx-dev/zserve/issues"
+  },
+  "homepage": "https://github.com/rinx-dev/zserve#readme",
+  "dependencies": {
+    "tar": "^6.2.0",
+    "adm-zip": "^0.5.10"
+  }
+}
