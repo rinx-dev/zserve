@@ -2,6 +2,13 @@
 name = "zserv"
 version = "0.1.0"
 edition = "2024"
+description = "A simple, lightweight, and modern HTTP file server."
+authors = ["Rinx <rinx@rinx.dev>"]
+repository = "https://github.com/rinx-dev/zserve"
+license = "MIT"
+readme = "README.md"
+keywords = ["http", "server", "static", "file-server", "cli"]
+categories = ["web-programming::http-server", "command-line-utilities"]
 
 [dependencies]
 anyhow = "1.0.101"

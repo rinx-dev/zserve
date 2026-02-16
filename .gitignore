@@ -1,1 +1,8 @@
 /target
+/test_logs
+/.idea
+/.vscode
+*.swp
+*.bk
+*.log
+.DS_Store
