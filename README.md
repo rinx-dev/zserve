@@ -10,12 +10,12 @@
 
 ## Features
 
--   🚀 **Fast & Lightweight**: Built with Rust and Axum for high performance.
--   📂 **Directory Listing**: Beautiful HTML directory listing with file icons and sizes.
--   🌐 **Modern**: Supports HTTP/2.
--   🔧 **Configurable**: Easy CLI options for port, binding address, and CORS.
--   🔇 **Quiet Mode**: Suppress logs with a simple flag.
--   📦 **Cross-Platform**: Binaries available for Linux, macOS, and Windows.
+- 🚀 **Fast & Lightweight**: Built with Rust and Axum for high performance.
+- 📂 **Directory Listing**: Beautiful HTML directory listing with file icons and sizes.
+- 🌐 **Modern**: Supports HTTP/2.
+- 🔧 **Configurable**: Easy CLI options for port, binding address, and CORS.
+- 🔇 **Quiet Mode**: Suppress logs with a simple flag.
+- 📦 **Cross-Platform**: Binaries available for Linux, macOS, and Windows.
 
 ## Quick Start
 
@@ -63,15 +63,15 @@ cargo install zserv
 
 ### From Binary
 
-Download the latest pre-built binary for your operating system from the [Releases](https://github.com/rinx-dev/zserve/releases) page.
+Download the latest pre-built binary for your operating system from the [Releases](https://github.com/rinx-dev/zserv/releases) page.
 
 ### For Developers
 
 If you want to contribute or run from source without installing:
 
 ```bash
-git clone https://github.com/rinx-dev/zserve.git
-cd zserve
+git clone https://github.com/rinx-dev/zserv.git
+cd zserv
 cargo run
 ```
 

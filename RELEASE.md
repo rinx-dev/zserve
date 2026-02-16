@@ -4,7 +4,7 @@ This document describes how to release a new version of `zserv`.
 
 ## Prerequisites
 
-1.  GitHub repository configured (`https://github.com/rinx-dev/zserve`).
+1.  GitHub repository configured (`https://github.com/rinx-dev/zserv`).
 2.  `crates.io` account logged in locally (`cargo login`).
 3.  `npm` account logged in locally (`npm login`).
 
@@ -13,10 +13,12 @@ This document describes how to release a new version of `zserv`.
 ### 1. Update Version
 
 Update the version number in two files:
--   `Cargo.toml`: `version = "0.X.Y"`
--   `npm/package.json`: `"version": "0.X.Y"`
+
+- `Cargo.toml`: `version = "0.X.Y"`
+- `npm/package.json`: `"version": "0.X.Y"`
 
 Commit these changes:
+
 ```bash
 git add Cargo.toml npm/package.json
 git commit -m "Bump version to 0.X.Y"
@@ -35,7 +37,7 @@ This will trigger the GitHub Actions workflow to build binaries and create a Git
 
 ### 3. Verify GitHub Release
 
-Go to [GitHub Releases](https://github.com/rinx-dev/zserve/releases) and ensure the new release exists with assets attached (e.g., `zserv-linux-amd64.tar.gz`).
+Go to [GitHub Releases](https://github.com/rinx-dev/zserv/releases) and ensure the new release exists with assets attached (e.g., `zserv-linux-amd64.tar.gz`).
 
 ### 4. Publish to NPM
 

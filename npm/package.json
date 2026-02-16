@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rinx-dev/zserve.git"
+    "url": "git+https://github.com/rinx-dev/zserv.git"
   },
   "keywords": [
     "http-server",
@@ -31,9 +31,9 @@
   "author": "Rindog <hello@rinx.dev>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rinx-dev/zserve/issues"
+    "url": "https://github.com/rinx-dev/zserv/issues"
   },
-  "homepage": "https://github.com/rinx-dev/zserve#readme",
+  "homepage": "https://github.com/rinx-dev/zserv#readme",
   "dependencies": {
     "tar": "^7.4.3",
     "adm-zip": "^0.5.16"

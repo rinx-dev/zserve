@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/zserv)](https://www.npmjs.com/package/zserv)
 [![Crates.io](https://img.shields.io/crates/v/zserv)](https://crates.io/crates/zserv)
-[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/rinx-dev/zserve/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/rinx-dev/zserv/blob/main/LICENSE)
 
 **A simple, lightweight, and modern HTTP file server.**
 
@@ -76,4 +76,4 @@ Options:
 
 This NPM package provides a wrapper that automatically downloads and runs the appropriate binary for your platform. The actual implementation is written in Rust and is also available on [crates.io](https://crates.io/crates/zserv).
 
-For more information, visit the [GitHub repository](https://github.com/rinx-dev/zserve).
+For more information, visit the [GitHub repository](https://github.com/rinx-dev/zserv).
